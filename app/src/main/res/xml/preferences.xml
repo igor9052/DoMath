@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <ListPreference
+        android:key="@string/pref_key_name_game_time"
+        android:title="@string/pref_title_game_time"
+        android:entries="@array/game_time_list"
+        android:entryValues="@array/game_time_values"
+        android:defaultValue="@string/game_time_default_value"
+        />
+
+    <MultiSelectListPreference
+        android:key="@string/pref_key_mul_numbers"
+        android:title="@string/description"
+        android:entries="@array/multipliers_list"
+        android:entryValues="@array/multipliers_values"
+        android:defaultValue="@array/multipliers_values"
+        />
+</PreferenceScreen>

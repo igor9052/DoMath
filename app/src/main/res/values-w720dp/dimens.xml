@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">32dp</dimen>
+    <dimen name="activity_vertical_margin">32dp</dimen>
+    <dimen name="question_font_size_big">160sp</dimen>
+    <dimen name="answer_font_size">100sp</dimen>
+    <dimen name="statistics_font_size">20sp</dimen>
+    <dimen name="question_font_size_medium">100sp</dimen>
+    <dimen name="score_item_first_font_size">32sp</dimen>
+    <dimen name="score_item_second_font_size">24sp</dimen>
+    <dimen name="score_item_third_font_size">20sp</dimen>
+    <dimen name="home_screen_btn_text_size">36sp</dimen>
+    <dimen name="home_btn_width">400dp</dimen>
+    <dimen name="home_btn_margin_top">36dp</dimen>
+    <dimen name="home_btn_padding">24dp</dimen>
+
+    <dimen name="home_image_height">200dp</dimen>
+    <dimen name="home_image_width">200dp</dimen>
+    <dimen name="home_image_margin">64dp</dimen>
+
+
+</resources>

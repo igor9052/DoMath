@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context=".activity.GameActivity">
+    
+    <TextView
+        android:id="@+id/question_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:background="@drawable/question_board"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/question_font_size_medium"
+        android:text="@string/tap_to_start"
+        android:gravity="center_horizontal|center_vertical"
+        />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/AppTheme.ProgressBarH"
+        android:visibility="visible"
+        />
+
+    <LinearLayout
+        android:id="@+id/answer_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginRight="12dp"
+            >
+
+            <Button
+                android:id="@+id/btn_answer1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/answer_button_red"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/answer_font_size"
+                android:text="__"
+                android:layout_marginBottom="24dp"
+                android:layout_marginTop="24dp"
+                />
+
+            <Button
+                android:id="@+id/btn_answer2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/answer_button_red"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/answer_font_size"
+                android:text="__"
+                android:layout_marginBottom="8dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginLeft="12dp"
+            >
+
+            <Button
+                android:id="@+id/btn_answer3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/answer_button_red"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/answer_font_size"
+                android:text="__"
+                android:layout_marginBottom="24dp"
+                android:layout_marginTop="24dp"
+                />
+
+            <Button
+                android:id="@+id/btn_answer4"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/answer_button_red"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/answer_font_size"
+                android:text="__"
+                android:layout_marginBottom="8dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

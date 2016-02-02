@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFC107</color>
+    <color name="colorPrimaryDark">#FF6F00</color>
+    <color name="colorAccent">#64DD17</color>
+    <color name="colorBackgroundGrey">#EEEEEE</color>
+    <color name="colorRed">#F44336</color>
+    <color name="colorGreen">#4CAF50</color>
+    <color name="colorAnswerButtonsBackground">#E0F7FA</color>
+    <color name="colorQuestionBoardBackground">#795548</color>
+    <color name="colorAccentHalfAlpha">#8864DD17</color>
+    <color name="colorWhite">#FFF</color>
+    <color name="colorAmber50">#FFF8E1</color>
+    <color name="colorScoreBackground">#FFF9C4</color>
+
+
+
+</resources>
